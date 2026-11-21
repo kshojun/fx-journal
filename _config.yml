@@ -1,0 +1,18 @@
+title: FXジャーナル
+description: 賢人のデイトレード手法で、毎週シナリオを立ててトレードした記録と振り返り。結果は pips と R で書く。
+lang: ja
+baseurl: /fx-journal
+url: https://kshojun.github.io
+theme: minima
+permalink: /:year/:month/:day/:title/
+timezone: Asia/Tokyo
+show_excerpts: true
+header_pages:
+  - about.md
+minima:
+  date_format: "%Y/%m/%d"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - README.md
